@@ -37,7 +37,7 @@ const projects=[
     },
     {
         name:"Language Learning Game",
-        img: 'language_learning.jpg',
+        img: 'language_learning.png',
         link: "/language/index.html"
 
     },

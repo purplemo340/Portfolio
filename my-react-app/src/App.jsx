@@ -5,23 +5,46 @@ import Project from './Project'
 import Footer from './Footer'
 import Navigation from './Navigation'
 import projects from './projects'
-
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+  const [proj, setProj] = useState(0);
   function createProject(project){
 	return <Project
 	name={project.name}
 	img={project.img}
 	link={project.link}
 	/>
+	
   }
+  function nextProject(){
+	if(proj < projects.length -1 ){
+	setProj((proj)=> proj+1)
+	}
+  }
+  function prevProject(){
+	if(proj >=1){
+	setProj((proj)=> proj-1)
+	}
+  }
+  function currentProject(current){
+	return <Project
+	name={projects[current].name}
+	img={projects[current].img}
+	link={projects[current].link}
+	nextProject={nextProject}
+	prevProject={prevProject}
+	/>
+  }
+  
   return (
 
       <div>
 		
-        <div id="projects" className= "flex-center flex-column">
-         {projects.map(createProject)}
-        </div>
+		<div>{currentProject(proj)}</div>
+		<div className="flex-center">
+		<button onClick={prevProject}>Prev</button>
+		<button onClick={nextProject }>Next</button>
+		</div>
         <h2>Relevant Classes</h2>
 		<ul>
 			<li>Engineering Electronics</li>
@@ -36,6 +59,7 @@ function App() {
 			<li>C++ Programming for Engineers</li>
 			<li>Neural Networks for Machine Learning</li>
 		</ul>
+		
 		<h2> Skills</h2>
 		<div className="flex-center">
 		<img src="languages.png"/> 
