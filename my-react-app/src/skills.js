@@ -1,0 +1,36 @@
+const skills=[
+    {
+        name:"Python"
+    },
+    {
+        name:"C"
+    },
+    {
+        name:"C++"
+    },
+    {
+        name:"JavaScript"
+    },
+    {
+        name:"HTML"
+    },
+    {
+        name:"CSS"
+    },
+    {
+        name:"React.js"
+    },
+    {
+        name:"Node.js"
+    },
+    {
+        name:"Flask"
+    },
+    {
+        name:"FastAPI"
+    },
+    {
+        name:"TensorFlow"
+    },
+]
+export default skills

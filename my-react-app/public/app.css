@@ -61,4 +61,14 @@ img{
 .project{
 	width: 60%;
 }
-
+h1{
+	text-align: center;
+}
+button:hover{
+	background-color: var(--periwinkle);
+}
+.navigation{
+	border-bottom: solid;
+	border-top: solid;
+	border-color: var(--french-gray);
+}
