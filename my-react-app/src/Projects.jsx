@@ -10,7 +10,7 @@ import projects from './projects'
 import Button from './Button'
 import skills from './skills'
 
-
+//function for slide of projects. Not in use???
 function Projects() {
   const [proj, setProj] = useState(0);
   function createProject(project){
@@ -22,12 +22,13 @@ function Projects() {
 	/>
 	
   }
-  
+  //display next project
   function nextProject(){
 	if(proj < projects.length -1 ){
 	setProj((proj)=> proj+1)
 	}
   }
+  //display previous project
   function prevProject(){
 	if(proj >=1){
 	setProj((proj)=> proj-1)

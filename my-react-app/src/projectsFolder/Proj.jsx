@@ -8,11 +8,18 @@ function Proj(){
         <div>
             <h1>{list[id.id - 1].name}</h1>
             <p>{list[id.id - 1].description}</p>
+            <ul>
+                {list[id.id - 1].bullets.map((bullet) => {
+                    return (
+                        <li>
+                            {bullet}
+                        </li>
+                    )
+                })}
+            </ul>
             <h1>Media</h1>
             <img src={"/images/"+list[id.id-1].media}/>
-            <video width="500px" title="Demonstration" height="300px" controls="controls">
-        				<source src="/handwriting/20221208_184013 (1) - Trim.mp4" type="video/mp4" align="left"/>
-					</video>
+            
             <h1>Skills</h1>
             <ul>
                 {list[id.id - 1].skills.map((skill) => {

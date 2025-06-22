@@ -13,15 +13,18 @@ import {
 import Projects from "./Projects.jsx";
 import Hand from "./projectsFolder/handwriting/Hand.jsx";
 import Proj from "./projectsFolder/Proj.jsx";
+import Intro from "./Intro.jsx";
 // Home Page Component
 const Home = () => {
     const navigate = useNavigate();
 
     return (
         <div>
-            <h2>Home Page</h2>
+            <Intro />
+            <div class='profile-info'>
             <button onClick={() =>
                  navigate("/choices")}>Click Me!</button>
+                 </div>
         </div>
     );
 };
@@ -30,7 +33,7 @@ const Choices = () => {
     return(
         <div>
             <h1>Click on each picture to learn more!</h1>
-            <button>Portfolio</button>
+            <button >Portfolio</button>
             <button>Contact</button>
             <button>Hobbies</button>
         </div>
@@ -42,22 +45,9 @@ function App() {
     
     
     return (
-        
+        <div>
         <Router>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/Projects">Projects</Link>
-                    </li>
-                    <li>
-                        <Link to="/Hobbies">Hobbies</Link>
-                    </li>
-                </ul>
-                <Outlet/>
-            </nav>
+            
             
             {/*Implementing Routes for respective Path */}
             <Routes>
@@ -69,6 +59,8 @@ function App() {
                 <Route path="/choices" element={<Choices />}/>
             </Routes>
         </Router>
+        
+        </div>
     );
 }
 

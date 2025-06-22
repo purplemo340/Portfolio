@@ -6,7 +6,7 @@ function Header() {
        <div>
         
 		<div className="head">
-		<h1>Projects</h1>
+		<h1>Portfoligram</h1>
 		<br/>
 	</div>
     <div class="navigation">
