@@ -32,6 +32,8 @@ const list = [
         "skills":[
             "Python",
             "AWS",
+            "Machine Learning",
+            "Hardware Design"
 
         ],
         "Improvements":[
@@ -74,7 +76,7 @@ const list = [
     {
         "id": 5,
         "name": projects[4].name,
-        "description": "Description 1",
+        "description": "One of my favorite projects was building a personal website to showcase my work and skills. Not only do I have the chance to display my projects, but I also get to learn and develop my skills in regards to web development. This project also pushes me to analyze the projects that I have completed to improve my future work.",
         "bullets":[],
         "media": "website.png",
         "skills":[
@@ -82,14 +84,14 @@ const list = [
             "React"
         ],
         "Improvements":[
-            "Recently changed the website to include React to the website. ",
-            "Add more of the projects that I have done. "
+            "Recently changed the website to include React to the website. However, I still need to work on making the site more responsive.",
+            "Add more of the projects that I have done and improve the overall design."
         ]
     },
     {
         "id": 6,
         "name": projects[5].name,
-        "description": "Recently, I watched someone online play a higher or lower game where they were given the choice of two movies and had to guess which one had the higher rating. I believed with the skills that I have,  I could make something similar, so I picked up the challenge. ",
+        "description": "Recently, I watched someone online play a higher or lower game where they were given the choice of two movies and had to guess which one had the higher rating. I believed with the skills that I have,  I could make something similar, so I picked up the challenge. For this project, I mostly focused on web scraping. The result was a simple website that allows users to play the game and see the results.",
         "bullets":[],
         "media": "imdb.png",
         "skills":[
@@ -106,7 +108,7 @@ const list = [
         ], 
         "Link": "https://idmb-game.onrender.com"
     },
-    {
+    /* {
         "id": 7,
         "name": projects[6].name,
         "description": "Description 1",
@@ -120,10 +122,10 @@ const list = [
             "Add vocabulary to the quiz. ",
             "Improvement 2"
         ]
-    },
+    }, */
     {
-        "id": 8,
-        "name": projects[7].name,
+        "id": 7,
+        "name": projects[6].name,
         "bullets":[],
         "description": "This project uses SQL queries to access a database of books. Users can click on each book link to see book logs that I made. If they have read the book as well, they can comment on the post. Users can also sign up and log in to see there own library of books where they can also add books to the database and add their own book logs.",
         "media": "books.jpg",
@@ -138,7 +140,7 @@ const list = [
             "Make some interface changes to make the website easier to use."
         ]
     },
-    {
+    /* {
         "id": 9,
         "name": projects[8].name,
         "description": "Description 1",
@@ -152,10 +154,10 @@ const list = [
             "Improvement 1",
             "Improvement 2"
         ]
-    },
+    }, */
     {
-        "id": 10,
-        "name": projects[9].name,
+        "id": 8,
+        "name": projects[7].name,
         "description": "I have always loved the olympics growing up. Every four years I would be amazed by the athletes who prove hard work and dedication can lead to one achieving their dreams. I wanted to create a project that combines my love for the games and my love for coding while also learning new skills. This project involved the following: ",
         "bullets":["Web scraping using selenium: From the official Olympics website, I scraped data about the games and the medal count for each country. ",
             "Use pandas to clean and analyze the data.",
@@ -176,8 +178,8 @@ const list = [
         "Link": "https://olympics-iszt.onrender.com"
     },
     {
-        "id": 11,
-        "name": projects[10].name,
+        "id": 9,
+        "name": projects[8].name,
         "description": "Using Spotify API's, I created a simple website that displays one of my favorite artist's, Stray Kids, discography. Once a user is logged in with their Spotify credentials, the user can see all of their albums. Clicking on one of the album names would then take the user to a list of the songs from said album. ",
         "bullets":[],
         "media": "strays.png",

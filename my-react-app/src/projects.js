@@ -39,39 +39,39 @@ const projects=[
         id: 6
 
     },
-    {
+    /* {
         name:"Language Learning Game",
         img: 'language_learning.png',
         link: "/language/index.html",
         id: 7
 
-    },
+    }, */
     {
         name:"Library Website",
         img: 'books.jpg',
         link: "/bookshelf/index.html",
-        id: 8
+        id: 7
 
     },
-    {
+    /* {
         name:"Pomodoro Timer",
         img: 'pomodoro_1.png',
         link: "/pomodoro/index.html",
         id: 9
 
-    },
+    }, */
     {
         name:"Olympics Data Tracking",
         img: 'olympics.png',
         link: "/smart_garage/index.html",
-        id: 10
+        id: 8
 
     },
     {
         name:"Artist",
         img: 'strays.png',
         link: "/artist/index.html",
-        id: 11
+        id: 9
 
     }
 ]
