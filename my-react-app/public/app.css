@@ -41,7 +41,8 @@ background: linear-gradient(90deg, rgba(183, 181, 228, 1) 0%, rgba(207, 204, 214
 	}
 
 .container{
-	position: relative
+	position: relative;
+	display: flex;
 }
 
 
@@ -77,7 +78,7 @@ button{
 	background-color: var(--french-gray);
 }
 .profile{
-	width: 10%;
+	width: 200px;
 	border-radius: 50%;
 	float: left;
 	margin: 10px 10px 10px 10px;
@@ -92,9 +93,10 @@ button{
 .intro{
 	border: solid;
 	border-radius: 20px;
-	height: 600px;
+	height: auto;
 	padding: 10px;
 	margin: 10px;
+	
 	
 }
 .post-title{
@@ -110,15 +112,78 @@ button{
 	margin-bottom: 40px;
 }
 .post{
-	width: 30%;
-	float: left;
+	width: 100%;
+	text-align: center;
+	
 }
 .posts{
 	width: 100%;
-	float: left;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: auto;
 }
 .post_image{
 	width: 300px;
 	margin: 10px;
-	padding: 10px;
 }
+.title{
+	display: grid;
+	grid-template-columns: auto;
+    
+  }
+.title h1{
+	text-align: center;
+	width: 100%;
+}
+.profile_list{
+	
+	padding: auto;
+	width: 100%;
+}
+.grid_image{
+	padding: auto;
+	width: 100%;
+}
+.intro_text{
+	display: grid;
+	grid-template-columns: 300px auto;
+}
+
+.profile_stats{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.links{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin: 10px;
+	width: 100%;
+}
+.link{
+	text-decoration: none;
+	color: black;
+	border-radius: 20px;
+}
+.link button{
+	width: 100px;
+	height: 40px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  				.intro_text{
+					display: inline;
+				}
+				.links{
+					grid-template-columns: auto auto;
+				}
+				.posts{
+					display: inline;
+				}
+				.profile-info{
+					width: 80%;
+				}
+				
+			}

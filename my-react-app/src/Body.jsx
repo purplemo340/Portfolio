@@ -1,24 +1,12 @@
 import { useState } from 'react'
-import ReactDOM from "react-dom/client";
 
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Project from './Project'
 import Footer from './Footer'
-import Navigation from './Navigation'
 import projects from './projects'
-import Button from './Button'
+
 import skills from './skills'
 function Body() {
   const [proj, setProj] = useState(0);
-  function createProject(project){
-	return <Project
-	name={project.name}
-	img={project.img}
-	link={project.link}
-	/>
-	
-  }
   
   function nextProject(){
 	if(proj < projects.length -1 ){

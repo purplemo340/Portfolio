@@ -35,8 +35,7 @@ const list = [
 
         ],
         "Improvements":[
-            "Improvement 1",
-            "Improvement 2"
+            "No improvements at this time"
         ]
     },
     {
@@ -51,7 +50,7 @@ const list = [
         "media": "waterfall.png",
         "skills":["C#, Python", "MQTT", "Raspberry Pi", "Beaglebone Black"],
         "Improvements":[
-            "The acutal design of the system could be improved. The device consisted of wires and the heart rate sensor which caused the data collection to be unreliable at times",
+            "The acutal design of the system could be improved. The device consisted of wires and the heart rate sensor which caused the data collection to be unreliable at times.",
             "The system could have had a more consistent interface. The interface was not user friendly and could have been improved to be more visually appealing.",
         ]
     },
@@ -65,12 +64,11 @@ const list = [
                 "Distance Visualization: Simultaneously, a seven-segment display serves as a visual indicator of an obstacle's proximity."],
         "media": "detection_1.jpg",
         "skills":[
-            "Skill 1",
-            "Skill 2"
+            "Microcontroller Programming: Arduino",
+            "Circuit Design"
         ],
         "Improvements":[
-            "Improvement 1",
-            "Improvement 2"
+            "No improvements at this time."
         ]
     },
     {
@@ -105,7 +103,8 @@ const list = [
             "Can update the user interface to be more visually appealing.",
             "Can add more features to the game.",
             
-        ]
+        ], 
+        "Link": "https://idmb-game.onrender.com"
     },
     {
         "id": 7,
@@ -136,7 +135,7 @@ const list = [
         ],
         "Improvements":[
             "Add images to each book added to the database using an API. ",
-            "Make some interface changes to make the website easier to use"
+            "Make some interface changes to make the website easier to use."
         ]
     },
     {
@@ -144,7 +143,7 @@ const list = [
         "name": projects[8].name,
         "description": "Description 1",
         "bullets":[],
-        "media": "img.jpg",
+        "media": "pomodoro_1.png",
         "skills":[
             "Skill 1",
             "Skill 2"
@@ -157,24 +156,31 @@ const list = [
     {
         "id": 10,
         "name": projects[9].name,
-        "description": "Description 1",
-        "bullets":[],
-        "media": "img.jpg",
+        "description": "I have always loved the olympics growing up. Every four years I would be amazed by the athletes who prove hard work and dedication can lead to one achieving their dreams. I wanted to create a project that combines my love for the games and my love for coding while also learning new skills. This project involved the following: ",
+        "bullets":["Web scraping using selenium: From the official Olympics website, I scraped data about the games and the medal count for each country. ",
+            "Use pandas to clean and analyze the data.",
+        ],
+        "media": "olympics.png",
         "skills":[
-            "Skill 1",
-            "Skill 2"
+            "Flask",
+            "Pandas", 
+            "Matplotlib",
+            "Selenium"
+
         ],
         "Improvements":[
-            "Improvement 1",
-            "Improvement 2"
-        ]
+            "Eventually will transfer the project to Tableau.",
+            "Improve the interface.", 
+            "Use Tableau to analyze the results of each game."
+        ], 
+        "Link": "https://olympics-iszt.onrender.com"
     },
     {
         "id": 11,
         "name": projects[10].name,
         "description": "Using Spotify API's, I created a simple website that displays one of my favorite artist's, Stray Kids, discography. Once a user is logged in with their Spotify credentials, the user can see all of their albums. Clicking on one of the album names would then take the user to a list of the songs from said album. ",
         "bullets":[],
-        "media": "img.jpg",
+        "media": "strays.png",
         "skills":[
             "Javascript",
             "Node.js",
@@ -183,7 +189,8 @@ const list = [
         "Improvements":[
             "Updating the web interface. ",
             "Add more functionalities, such as a recommendation system"
-        ]
+        ],
+        "Link": "https://strays.onrender.com"
     }
 ]
 

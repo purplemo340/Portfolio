@@ -18,7 +18,7 @@ const projects=[
         link: "/tracker/index.html",
         id: 3
     },
-    {
+   {
         name:"Blind Detection",
         img: 'detection_1.jpg',
         link: "/detection/index.html",

@@ -11,7 +11,6 @@ import {
 } from "react-router-dom";
 
 import Projects from "./Projects.jsx";
-import Hand from "./projectsFolder/handwriting/Hand.jsx";
 import Proj from "./projectsFolder/Proj.jsx";
 import Intro from "./Intro.jsx";
 // Home Page Component
@@ -21,7 +20,7 @@ const Home = () => {
     return (
         <div>
             <Intro />
-            <div class='profile-info'>
+            <div className='profile-info'>
             <button onClick={() =>
                  navigate("/choices")}>Click Me!</button>
                  </div>
