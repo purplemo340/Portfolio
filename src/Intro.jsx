@@ -8,7 +8,7 @@ function Intro(){
         <div className='intro'>
             <div className='intro_text'>
             <div className='grid_image'>
-                <img className='profile' src="profile_img.jpg"></img>
+                <img className='profile' src="/images/profile_img.jpg"></img>
             </div>
             <div className='profile_list'>
                 <h3 className='profile-info'>Monae Edmead</h3>
