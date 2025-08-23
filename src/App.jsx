@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 import Projects from "./Projects.jsx";
-import Proj from "./projectsFolder/Proj.jsx";
+import Proj from "./Proj.jsx";
 import Intro from "./Intro.jsx";
 // Home Page Component
 const Home = () => {
