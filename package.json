@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://purplemo340.github.io/purplemo340.github.io",
+  "homepage": "https://monaee.com",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
