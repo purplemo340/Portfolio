@@ -1,13 +1,10 @@
 
-import React from "react";
 import {
     BrowserRouter as Router,
     Routes,
     Route,
     Link,
     useNavigate,
-    Outlet,
-    useParams
 } from "react-router-dom";
 
 import Projects from "./Projects.jsx";
@@ -46,7 +43,6 @@ function App() {
     return (
         <div>
         <Router>
-            
             
             {/*Implementing Routes for respective Path */}
             <Routes>
