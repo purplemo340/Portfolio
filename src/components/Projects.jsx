@@ -1,14 +1,11 @@
 import { useState } from 'react'
 import ReactDOM from "react-dom/client";
 
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Project from './Project'
-import Footer from './Footer'
-import Navigation from './Navigation'
-import projects from './projects'
-import Button from './Button'
-import skills from './skills'
+
+import Project from '../Project'
+import Footer from '../Footer'
+import projects from '../projects'
+import skills from '../skills'
 
 //function for slide of projects. Not in use???
 function Projects() {

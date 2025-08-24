@@ -7,7 +7,7 @@ import {
     useNavigate,
 } from "react-router-dom";
 
-import Projects from "./Projects.jsx";
+import Projects from "./components/Projects.jsx";
 import Proj from "./Proj.jsx";
 import Intro from "./Intro.jsx";
 // Home Page Component
