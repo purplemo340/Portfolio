@@ -34,7 +34,7 @@ function Header() {
             <li><hr className="dropdown-divider"/></li>
             {projects.map((project) => {
                 return (
-                    <li><a className="dropdown-item" href={"/Projects/"+project.id}>{project.name}</a></li>
+                    <li><a className="dropdown-item" href={"/"+project.id}>{project.name}</a></li>
                     
                 )
             })}

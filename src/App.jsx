@@ -50,13 +50,13 @@ function App() {
                 <Route path="/Projects" element={<Projects />}>
                  
                 </Route>
-                <Route path="/Projects/:id" element={<Proj />}/>  
+                <Route path="/:id" element={<Proj />}/>  
                 <Route path="/choices" element={<Choices />}/>
             </Routes>
         </Router>
         
         </div>
-    );
+    ); 
 }
 
 export default App;
