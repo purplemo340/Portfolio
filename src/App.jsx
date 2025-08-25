@@ -24,6 +24,7 @@ function pic(id){
 function Proj1(){
     const id = useParams();
     return(
+        
         <div>
             
             <h1>{list[id.id - 1].name}</h1>
@@ -81,7 +82,7 @@ const Home = () => {
         </div>
     );
 };
-function Projects1() {
+const Projects1 = () => {
   const [proj, setProj] = useState(0);
   function createProject(project){
 	return <Project
@@ -163,7 +164,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/Projects" element={<Projects />}/>
                 <Route path="/Projects1" element={<Projects1 />}/>
-                <Route path="/:id" element={<Proj1 />}/>  
+                <Route path="Project/:id" element={<Proj />}/>  
                 <Route path="/choices" element={<Choices />}/>
             </Routes>
         </Router>
