@@ -14,11 +14,11 @@ function Project(props) {
             
 		<div className="center">
         <button onClick={()=>{props.dec(proj)}}>&lt;</button>
-		<img src={"images/"+props.img}/>
+		<img src={"/images/"+props.img}/>
         <button onClick={()=>{props.inc(proj)}}>&gt;</button>
         </div>
         <div className="center">
-		<button ><Link to={"/Projects/"+props.id}>{props.name}</Link></button>
+		<button ><Link to={"/Project/"+props.id}>{props.name}</Link></button>
         </div>
         
 	</div>
