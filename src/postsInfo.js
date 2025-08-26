@@ -2,7 +2,7 @@ const postsInfo = [
     {
         'title': 'Favorite Project',
         'image': '/images/books.jpg',
-        'link': '/project/8'
+        'link': '/project/7'
     },
     {
         'title': 'College Days',
