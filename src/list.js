@@ -193,6 +193,24 @@ const list = [
             "Add more functionalities, such as a recommendation system"
         ],
         "Link": "https://strays.onrender.com"
+    },
+    {
+        "id": 10,
+        "name": projects[9].name,
+        "description": "Currently working on a website for my family's tart business that I help with every year. I thought it would be a good idea to have a central place for customers to see the different types of tarts that are available and have the ability to purchase. Using the available Paypal API's, I am building components that give users the ability to add, modify, and remove items from the cart, and send payments.  ",
+        "bullets":[],
+        "media": "paypal.png",
+        "skills":[
+            "Javascript",
+            "Node.js",
+            "APIs",
+            "React"
+        ],
+        "Improvements":[
+            "Updating the web interface. ",
+            "Update with actual images of the tarts that are sold.",
+            "Test to see if payments can be processed"
+        ]
     }
 ]
 

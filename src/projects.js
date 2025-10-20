@@ -73,6 +73,13 @@ const projects=[
         link: "/artist/index.html",
         id: 9
 
+    },
+     {
+        name:"Tart Website(In Progress)",
+        img: '',
+        link: "/wip/index.html",
+        id: 10
+
     }
 ]
 

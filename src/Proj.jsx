@@ -1,11 +1,17 @@
+/* eslint-disable react/jsx-key */
 import list from './list.js';
-import React from 'react';
 import {useParams} from "react-router-dom";
 
 function pic(id){
     if(list[id]!= undefined){
         return <img src={"/images/"+list[id].media} alt={list[id].name} />;
     }
+}
+function website(id){
+    if(list[id].Link!= undefined){
+        return <a href={list[id].Link} target='_blank'>Click to visit website</a>;
+    }
+    
 }
 function Proj(){
     const id = useParams();
@@ -17,7 +23,8 @@ function Proj(){
             {pic(id.id - 1)}
             </div>
             <div className='center'>
-            <a href={list[id.id - 1].Link} target='_blank'>Click to visit website</a>
+                {website(id.id - 1)}
+            
             </div>
             <p>{list[id.id - 1].description}</p>
             <ul>
