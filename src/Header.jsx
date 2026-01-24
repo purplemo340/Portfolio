@@ -22,7 +22,7 @@ function Header() {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
-        <li className="nav-item">
+        <li hidden className="nav-item">
           <a className="nav-link" href="/contact">Contact</a>
         </li>
         <li className="nav-item dropdown">
@@ -34,7 +34,7 @@ function Header() {
             <li><hr className="dropdown-divider"/></li>
             {projects.map((project) => {
                 return (
-                    <li><a className="dropdown-item" href={"/Project/"+project.id}>{project.name}</a></li>
+                    <li key= {project.id}><a  className="dropdown-item" href={"/Project/"+project.id}>{project.name}</a></li>
 
                 )
             })}

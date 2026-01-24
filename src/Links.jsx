@@ -6,6 +6,7 @@ function Links(){
             {links.map((link) => {
                 return(
                 <Link 
+                key={link.id}
                 name={link.name} 
                 link={link.url} />)
             })

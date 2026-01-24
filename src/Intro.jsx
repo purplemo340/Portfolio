@@ -11,8 +11,13 @@ function Intro(){
                 <img className='profile' src="/images/profile_img.jpg"></img>
             </div>
             <div className='profile_list'>
-                <h3 className='profile-info'>Monae Edmead</h3>
+                <div className="center">
+                <h3 className='profile-info center'>Monae Edmead</h3>
+                </div>
+                <div className="center">
                 <p className='profile-info'>Thank you for visiting my profile. Click on each link and image below to learn more about my projects. </p>
+                </div>
+                <Links />
                 <hr></hr>
                 <div className='profile_stats'> 
                 <div>
@@ -31,7 +36,9 @@ function Intro(){
                 
             </div>
         </div>
-           <Links />
+            <div className='center'>
+           
+           </div>
             <Posts />
         </div>
     )

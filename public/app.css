@@ -155,7 +155,7 @@ button{
 }
 .links{
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto auto;
 	margin: 10px;
 	width: 100%;
 }

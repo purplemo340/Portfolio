@@ -1,8 +1,15 @@
+import PropTypes from 'prop-types';
+
 function Link(props){
     return(
-        <div className="Links">
-            <a className="link" href={props.link}><button>{props.name}</button></a>
-        </div>
+        
+            <a className="link center" href={props.link} target="_blank"><button>{props.name}</button></a>
+        
     )
 }
+
+Link.propTypes = {
+    name: PropTypes.string.isRequired,
+    link: PropTypes.string
+};
 export default Link;

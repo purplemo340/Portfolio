@@ -21,7 +21,7 @@ const Home = () => {
         <div>
             <Intro />
             <div className='profile-info'>
-            <button onClick={() =>
+            <button hidden onClick={() =>
                  navigate("/choices")}>Click Me!</button>
                  </div>
         </div>
