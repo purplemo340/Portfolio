@@ -212,6 +212,24 @@ const list = [
             "Update with actual images of the tarts that are sold.",
             "Test to see if payments can be processed"
         ]
+    }, 
+    {
+        "id": 10,
+        "name": projects[10].name,
+        "description": "Currently working on a blog website. It is a work in progress.   ",
+        "bullets":[],
+        "media": "web.png",
+        "skills":[
+            "Javascript",
+            "Express.js",
+            "APIs",
+            "React.js",
+            "MongoDB"
+        ],
+        "Improvements":[
+            "Updating the web interface. "
+        ],
+        "Link":"https://blog-frontend-w7q5cgnjvq-ue.a.run.app/"
     }
 ]
 

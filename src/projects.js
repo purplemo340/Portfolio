@@ -75,10 +75,17 @@ const projects=[
 
     },
      {
-        name:"Tart Website(In Progress)",
+        name:"Tart Website(On hold)",
         img: '',
         link: "/wip/index.html",
         id: 10
+
+    },
+    {
+        name:"Full-Stack React Blog(In Progress)",
+        img: 'web.png',
+        link: "/wip/index.html",
+        id: 11
 
     }
 ]
