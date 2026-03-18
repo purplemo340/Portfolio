@@ -216,8 +216,12 @@ const list = [
     {
         "id": 10,
         "name": projects[10].name,
-        "description": "Currently working on a blog website. It is a work in progress.   ",
-        "bullets":[],
+        "description": "Currently working on a blog website that is being built using React.js. It is a work in progress. Below are the functionalities of the blog.   ",
+        "bullets":['All posts are viewable on the homepage by the blog title and author. To see the entire posts viewers can click on the respective link.',
+            'The posts can be sorted by creation date and filtered by the author name.',
+            'Users will have the ability to create posts by signing up and logging in.'
+
+        ],
         "media": "web.png",
         "skills":[
             "Javascript",
@@ -229,7 +233,7 @@ const list = [
         "Improvements":[
             "Updating the web interface. "
         ],
-        "Link":"https://blog-frontend-w7q5cgnjvq-ue.a.run.app/"
+        "Link":"https://mos-frontend-w7q5cgnjvq-ue.a.run.app/"
     }
 ]
 

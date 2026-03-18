@@ -13,6 +13,11 @@ const postsInfo = [
         'title': 'AI Revolution',
         'image': '/images/handwriting.png',
         'link': '/project/1'
+    },
+    {
+        'title': 'Work in Progress',
+        'image': '/images/web.png',
+        'link': '/project/11'
     }
 
 ]
