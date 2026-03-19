@@ -2,9 +2,10 @@ import PropTypes from 'prop-types';
 
 function Link(props){
     return(
+        <div>
         
             <a className="link center" href={props.link} target="_blank"><button>{props.name}</button></a>
-        
+        </div>
     )
 }
 

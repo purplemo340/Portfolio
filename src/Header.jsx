@@ -7,7 +7,7 @@ function Header() {
        <div>
         
 		<div className="head">
-		<h1>Portfoligram</h1>
+		<h1>Mo&apos;s Portfolio</h1>
 		<br/>
 	</div>
     <div className="navigation">

@@ -6,7 +6,7 @@ function Post(props){
         <div className='post'>
             
                    <div> <a href={props.link}><img className='post_image' src={props.image}></img></a></div>
-            <div className='title'><h1>{'#'+props.title}</h1></div>
+            <div className='title'><h1>{props.title}</h1></div>
                 
                
 

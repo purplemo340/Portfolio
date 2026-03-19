@@ -1,17 +1,20 @@
 import Post from "./Post";
-import postsInfo from "./postsInfo"
+//import postsInfo from "./postsInfo"
+import list from "./list";
 function Posts(){
     return(
         <div>
-            <h1 className='latest'>Latest Posts</h1>
+            <div className="center">
+            <h2 className='latest'>Projects</h2>
+            </div>
             <div className='posts'>
-                {postsInfo.map((post) => {
+                {list.map((post) => {
                     return (
                         <Post
                             key={post.id}
-                            title={post.title}
-                            image={post.image}
-                            link={post.link}
+                            title={post.name}
+                            image={`images/${post.media}`}
+                            link={`project/${post.id}`}
                         />
                     )
                 }
