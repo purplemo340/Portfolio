@@ -214,12 +214,12 @@ const list = [
         ]
     }, 
     {
-        "id": 10,
+        "id": 11,
         "name": projects[10].name,
-        "description": "Currently working on a blog website that is being built using React.js. It is a work in progress. Below are the functionalities of the blog.   ",
+        "description": "Currently working on a blog website that is being built using React.js. This project is a work in progress that follows my journey to learn more about the React library. Gradually the project will continue to be updated so if the blog happens to be down, my apologies. Below are the functionalities of the blog:   ",
         "bullets":['All posts are viewable on the homepage by the blog title and author. To see the entire posts viewers can click on the respective link.',
-            'The posts can be sorted by creation date and filtered by the author name.',
-            'Users will have the ability to create posts by signing up and logging in.'
+            'The posts can be sorted by creation date or when the post was updated. Users can also filter posts by the author name.',
+            'Users have the ability to create posts by signing up and logging in to their respective accounts. Passwords are encrypted and housed in a MongoDB database.'
 
         ],
         "media": "web.png",
@@ -231,7 +231,8 @@ const list = [
             "MongoDB"
         ],
         "Improvements":[
-            "Updating the web interface. "
+            "Updating the web interface. ",
+            "Replacing the test posts with real posts."
         ],
         "Link":"https://mos-frontend-w7q5cgnjvq-ue.a.run.app/"
     }

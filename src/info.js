@@ -5,3 +5,5 @@ const info =[
         link: "/handwriting/index.html",
     }
 ]
+
+export default info;
