@@ -1,8 +1,8 @@
-# React + Vite
+Portfolio Website
+A modern, responsive portfolio website built with React and Vite, and deployed on AWS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website showcases my projects, technical skills, experience, and other work in a clean and interactive interface.
 
-Currently, two official plugins are available:
+Live Demo
+https://monaee.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
